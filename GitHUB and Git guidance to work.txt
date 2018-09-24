@@ -20,6 +20,9 @@ a)  this will download the change from GitHub repository but not to your local r
 b) Now type this command
 > git checkout origin/master ~/.git/<selected directory path>
 
+c) Now merge the changes
+> git pull
+
 
 
 3) If you want to upload back in GitHUB repository the file changes that you have made
