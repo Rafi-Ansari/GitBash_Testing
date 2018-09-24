@@ -56,7 +56,7 @@ e) check the files uploaded successfully in GitHub
 
 
 
-You could checkout 'master' with both directories;
+You could checkout 'master' with both directories; for deleting from both local and remote location
 
 git rm -r one-of-the-directories
 git commit -m "Remove duplicated directory"
