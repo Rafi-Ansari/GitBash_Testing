@@ -1,0 +1,39 @@
+GitBash Tutorial: few important commands to use:
+
+1) Clone the remote repository from GitHUB (you must be in your local directory like ".git" (C:\Users\IBM_ADMIN\.git) )
+a) first to be in ".git" local repository type below command
+> cd ~/.git
+b) now type
+> git clone https://github.com/Rafi-Ansari/GitBash_Testing.git
+
+the above command will copy the entire GitHub repository to your local
+
+
+
+
+
+2) To copy a single file that is not present in your local repository, type following commands
+
+a)  this will download the change from GitHub repository but not to your local repository
+> git fetch
+
+b) Now type this command
+> git checkout origin/master ~/.git/<selected directory path>
+
+
+
+3) If you want to upload back in GitHUB repository the file changes that you have made
+
+a) add the file to git
+> git add */single file
+
+b) check the files ready via status
+> git status
+
+c) commit files
+> git commit -m "text for information/version controlling"
+
+d) Now push the files to remote repository
+> git push origin master
+
+e) check the files uploaded successfully in GitHub
