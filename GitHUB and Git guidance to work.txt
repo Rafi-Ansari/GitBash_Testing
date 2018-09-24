@@ -1,5 +1,18 @@
 GitBash Tutorial: few important commands to use:
 
+Note: if .git folder/directory is not created at "C:\Users\IBM_ADMIN\.git" after GitBash installtion then to create this folder type the following commands after open the GitBash from start menu.
+a) move to .ssh (shell script folder)
+> cd ~/.ssh
+
+b) now create the .git manually at "C:\Users\IBM_ADMIN\.git"
+
+c) now move to .git directory
+> cd .~/.git
+
+d) now create the .git via cmd
+> git init
+
+
 1) Clone the remote repository from GitHUB (you must be in your local directory like ".git" (C:\Users\IBM_ADMIN\.git) )
 a) first to be in ".git" local repository type below command
 > cd ~/.git
